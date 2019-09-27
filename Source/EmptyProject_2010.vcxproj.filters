@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{03617a41-06da-4e7c-b056-caad16f06b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{3d475dbc-8831-4fb7-9aec-4199b044e706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Image">
+      <UniqueIdentifier>{682e95cd-7b03-45db-8433-c4000b8f9caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Input">
+      <UniqueIdentifier>{d8b597c8-68f2-4832-a59f-d109ad080996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Scene">
+      <UniqueIdentifier>{e3170e24-51e3-4319-8327-fc0406a24f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Camera">
+      <UniqueIdentifier>{d3bf5ac3-0945-4fb9-90df-d653d8e8ea98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Time">
+      <UniqueIdentifier>{b61cccbf-ed0c-4ae9-a6e5-8c29fe301b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Object">
+      <UniqueIdentifier>{ca3826ed-2ce0-4a93-a90a-6b6db500848f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6de7368b-ba14-41d5-8251-839ad6a929ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{41abe3e1-7286-4bda-9d85-8454ac2f0ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components">
+      <UniqueIdentifier>{f941a259-3ed5-44fd-a809-70e5b1879044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component">
+      <UniqueIdentifier>{688cdcf1-e028-42cd-94eb-38b8557f724f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{33d2339f-83f4-4cee-8fd8-3408940b4bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Math">
+      <UniqueIdentifier>{27e9b46a-bc20-4859-85ba-7d3e1d070388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Math\Rect">
+      <UniqueIdentifier>{06085e51-db54-4794-8608-ac44a1a044ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Basic">
+      <UniqueIdentifier>{02a5d3e0-1a65-41bc-b31d-e385df7591c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Basic\Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Base\Basic\DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\LoadScene">
+      <UniqueIdentifier>{014324f0-7f59-483c-bffe-85017829ad71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Animation">
+      <UniqueIdentifier>{c915a731-8066-4478-94c5-0d33ae0ce316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\BoxCollider">
+      <UniqueIdentifier>{e933a137-6c6b-4adb-b7f1-2171c6c7d76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\RigidBody">
+      <UniqueIdentifier>{22edfd2f-6738-42c8-b14d-360833089e6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Script">
+      <UniqueIdentifier>{be3b1d21-cb56-4c6b-b481-b6aa67e4041b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Renderer">
+      <UniqueIdentifier>{eeb7bfe2-758f-4eca-a54e-6e894b96aa58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Physic">
+      <UniqueIdentifier>{90d23de1-5f25-4dd5-8df9-d4184b320e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object\GameObject">
+      <UniqueIdentifier>{4b26d03a-a71e-471d-bcfb-bde0b111d37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Sound">
+      <UniqueIdentifier>{58c2f2a2-a8cd-42c4-a506-0b98c741ea35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Model">
+      <UniqueIdentifier>{44ac81ea-6250-4f37-9f49-972f1ca93c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Renderer\2D">
+      <UniqueIdentifier>{1e9a96d5-5647-4fd7-9c00-8f10dc120aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Renderer\3D">
+      <UniqueIdentifier>{6442f1ce-8e3d-43c5-b3e0-8c687027da33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Renderer\3D\Mesh">
+      <UniqueIdentifier>{81bc666c-1f83-43dc-be9f-f0ee8e92732a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Renderer\2D\Line">
+      <UniqueIdentifier>{754e8ee0-7922-45a9-9738-9d7d863ba5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Renderer\2D\Sprite">
+      <UniqueIdentifier>{258761be-83ab-4d36-918c-0ede88851258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Renderer\2D\Text">
+      <UniqueIdentifier>{fc6f54f8-e123-4776-85ea-9cf3503c91d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Animation\3D">
+      <UniqueIdentifier>{dbe3277b-503a-40e5-8059-913f0e3b56e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Animation\2D">
+      <UniqueIdentifier>{9bf66413-593f-4cd9-ae5c-09e3b948a38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\MainScene">
+      <UniqueIdentifier>{859bc501-eed4-4767-a6cf-3e3f80a6f645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\BoxCollider\3D">
+      <UniqueIdentifier>{212fc381-a66b-4574-8dff-f821f7fac72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\BoxCollider\2D">
+      <UniqueIdentifier>{1c7d9743-1dee-43b8-b594-9c31b7968fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\BoxCollider\2D\Box">
+      <UniqueIdentifier>{eb4671c4-1ab1-41cc-ad2d-bae7b78fc759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\BoxCollider\3D\Sphere">
+      <UniqueIdentifier>{c43b7117-f9ee-405a-a6b3-1968229fa58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Math\Sphere">
+      <UniqueIdentifier>{ba73e078-a8be-48bb-ba0b-35b71658ff0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Math\Box">
+      <UniqueIdentifier>{d9a22de6-e561-470c-888c-c222f30967bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\BoxCollider\3D\Box">
+      <UniqueIdentifier>{78db2679-d070-49b6-abea-a9e6e61d8854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Renderer\3D\Terrain">
+      <UniqueIdentifier>{3b6dee41-bb40-4a5b-a84f-0c3c1926a909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Components\Component\Transform">
+      <UniqueIdentifier>{33b18046-f90c-46f7-adaa-2932d8676d21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Base\Basic\Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>Base\Basic\DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CRect.cpp">
+      <Filter>Base\Math\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraManager.cpp">
+      <Filter>Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageManager.cpp">
+      <Filter>Manager\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeManager.cpp">
+      <Filter>Manager\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManager.cpp">
+      <Filter>Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoadScene.cpp">
+      <Filter>Game\Scene\LoadScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CTransform.cpp">
+      <Filter>Game\Components\Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CPhysic.cpp">
+      <Filter>Manager\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelManager.cpp">
+      <Filter>Manager\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CModel.cpp">
+      <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="COBJLoader.cpp">
+      <Filter>Manager\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderer3D.cpp">
+      <Filter>Game\Components\Component\Renderer\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderer2D.cpp">
+      <Filter>Game\Components\Component\Renderer\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshRenderer.cpp">
+      <Filter>Game\Components\Component\Renderer\3D\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CLineRenerer.cpp">
+      <Filter>Game\Components\Component\Renderer\2D\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpriteRenderer.cpp">
+      <Filter>Game\Components\Component\Renderer\2D\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CText.cpp">
+      <Filter>Game\Components\Component\Renderer\2D\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation3D.cpp">
+      <Filter>Game\Components\Component\Animation\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator3D.cpp">
+      <Filter>Game\Components\Component\Animation\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation2D.cpp">
+      <Filter>Game\Components\Component\Animation\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator2D.cpp">
+      <Filter>Game\Components\Component\Animation\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainScene.cpp">
+      <Filter>Game\Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider3D.cpp">
+      <Filter>Game\Components\Component\BoxCollider\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider2D.cpp">
+      <Filter>Game\Components\Component\BoxCollider\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoxCollider2D.cpp">
+      <Filter>Game\Components\Component\BoxCollider\2D\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="CSphereCollider3D.cpp">
+      <Filter>Game\Components\Component\BoxCollider\3D\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="CSphere.cpp">
+      <Filter>Base\Math\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="CBox.cpp">
+      <Filter>Base\Math\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionData.cpp">
+      <Filter>Base\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoxCollider3D.cpp">
+      <Filter>Game\Components\Component\BoxCollider\3D\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="CRay.cpp">
+      <Filter>Manager\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CTerrain.cpp">
+      <Filter>Game\Components\Component\Renderer\3D\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputManager.cpp">
+      <Filter>Manager\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMovement.cpp">
+      <Filter>Game\Components\Component\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody2D.cpp">
+      <Filter>Game\Components\Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody3D.cpp">
+      <Filter>Game\Components\Component\RigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterBase.cpp" />
+    <ClCompile Include="CMonster001.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Base\Basic\Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="EmptyProject.rc">
+      <Filter>Base\Basic\Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="Property.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CRect.h">
+      <Filter>Base\Math\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraManager.h">
+      <Filter>Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageManager.h">
+      <Filter>Manager\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputManager.h">
+      <Filter>Manager\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeManager.h">
+      <Filter>Manager\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoadScene.h">
+      <Filter>Game\Scene\LoadScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CTransform.h">
+      <Filter>Game\Components\Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="CPhysic.h">
+      <Filter>Manager\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelManager.h">
+      <Filter>Manager\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CModel.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="COBJLoader.h">
+      <Filter>Manager\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderer3D.h">
+      <Filter>Game\Components\Component\Renderer\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderer2D.h">
+      <Filter>Game\Components\Component\Renderer\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshRenderer.h">
+      <Filter>Game\Components\Component\Renderer\3D\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CLineRenerer.h">
+      <Filter>Game\Components\Component\Renderer\2D\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpriteRenderer.h">
+      <Filter>Game\Components\Component\Renderer\2D\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CText.h">
+      <Filter>Game\Components\Component\Renderer\2D\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation3D.h">
+      <Filter>Game\Components\Component\Animation\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator3D.h">
+      <Filter>Game\Components\Component\Animation\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation2D.h">
+      <Filter>Game\Components\Component\Animation\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator2D.h">
+      <Filter>Game\Components\Component\Animation\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainScene.h">
+      <Filter>Game\Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider3D.h">
+      <Filter>Game\Components\Component\BoxCollider\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider2D.h">
+      <Filter>Game\Components\Component\BoxCollider\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoxCollider2D.h">
+      <Filter>Game\Components\Component\BoxCollider\2D\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="CSphereCollider3D.h">
+      <Filter>Game\Components\Component\BoxCollider\3D\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="CSphere.h">
+      <Filter>Base\Math\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="CBox.h">
+      <Filter>Base\Math\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Base\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoxCollider3D.h">
+      <Filter>Game\Components\Component\BoxCollider\3D\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMovement.h">
+      <Filter>Game\Components\Component\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="CRay.h">
+      <Filter>Manager\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CTerrain.h">
+      <Filter>Game\Components\Component\Renderer\3D\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody2D.h">
+      <Filter>Game\Components\Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody3D.h">
+      <Filter>Game\Components\Component\RigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterBase.h" />
+    <ClInclude Include="CMonster001.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
